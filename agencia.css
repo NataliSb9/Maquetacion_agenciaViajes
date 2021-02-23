@@ -1,0 +1,72 @@
+.row2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+/*Nav*/
+.row{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    
+}
+#navStyle{
+    background-color: red;
+    padding: 1%;
+    margin-bottom: 5px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+#icon{
+    width: 10%;
+}
+
+/*Cuadro de consulta*/
+#consulta {
+    padding: 1%;    
+}
+#bloqConsult{
+    background-color: rgb(250, 244, 166);
+    margin-right:10%;
+    margin-left:10%;
+    margin-bottom: 10px;
+    padding: 1%;
+    border-radius: 5px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+/*Imagen principal*/
+#imageBeach {
+    width: 80%;
+    height: 70%;
+}
+/*Formulario*/
+
+#blueBlock{
+    background-color: rgb(29, 70, 104);
+    margin-right: 20%;
+    margin-left:20%;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#blueBlock p {
+    color: white;
+    font-size: 20px;
+}
+
+#styleInput{
+    margin-top: 5%;
+}
+/*Footer*/
+
+#footer {
+  font-family: 'Poppins', sans-serif;
+  font-size: 15px;
+}

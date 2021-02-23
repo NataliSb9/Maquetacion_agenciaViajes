@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Halcon Viajes</title>
+    <script src="agencia.js"></script>
+    <link rel="stylesheet" href="agencia.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Karla:wght@600&family=Poppins&family=Roboto&family=Signika:wght@600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class = "row" id="navStyle">
+        <img id = "icon"src="./imagenes/halconviajes.com-white.svg" alt="">
+        <p>Vacaciones</p>
+        <p>Vuelos</p>
+        <p>Agencia</p>
+        <p>Contacta con nosotros</p>
+        <p>Inicia sesión</p>
+        <p>900 80 20 20</p>
+    </div>
+    <div id="bloqConsult">
+        <div class ="row" id= "consulta">
+            <p>Consulta aquí un listado de nuestras agencias abiertas y los detalles de <span>reapertura y de medidas de seguridad.</span></p>
+        </div>
+    </div>
+    <div class= "row2" id="beachImg">
+        <img id ="imageBeach" src="./imagenes/header.jpg" alt="playa paradisiaca">
+    </div>
+
+    <div id="blueBlock">
+        <div id="formulario">
+            <form class = "infoForm" action="">
+                <input class = "styleInput" id="name" type="text" placeholder = "nombre" name="nombre" value="">
+                <input class = "styleInput" id= "surname" type="text" placeholder = "apellido" name="apellido" value="">
+                <input class = "styleInput" id="email" type="email" placeholder = "email" name ="email" value="">
+                <input class = "styleInput" id = "telephone" type="tel" placeholder="telefono" name ="telefono" value="">
+                <button onclick="saveData()"  type ="button">Enviar</button>
+                <button onclick="nameR()" type = "button">Filtrar Nombres</button>
+            </form>
+        </div>
+    </div>
+    <div>
+        <p id="passenger"></p>
+
+        <p id="nameR"></p>
+    </div>
+    <div class= "row" id= "footer">
+        <p>Paga online,ahora más seguro</p>
+        <p>Sin comisiones por pagar con tarjeta</p>
+        <p>Atención telefonica gratuita y personalizada</p>
+        <p>Gestiona y paga cómodamente por teléfono</p>
+    </div>
+</body>
+</html>
