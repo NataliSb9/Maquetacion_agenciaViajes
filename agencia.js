@@ -9,19 +9,20 @@ function saveData(){
       "apellido": surname,
       "email": email,
       "telefono": telephone,
-    };
+    }
     usuario.push(usuario1)
     console.log(usuario)
 }
 
 
-let resultado = []
+
+//let resultado = []
 function nameR(){
+  let resultado =""
   for (let i = 0; i<usuario.length; i++) {
-    if (usuario[i].nombre.includes("r")) {
-      resultado.push(usuario[i].nombre);
+    if (usuario[i].nombre.includes("r" )|| usuario[i].nombre.includes("R" )) {
+      resultado += usuario[i].nombre+ ","
     }
   }
-  return console.log(resultado)
-}
-
+  document.getElementById("resultR").innerHTML= `Nombres con r:  ${resultado}`
+  }
